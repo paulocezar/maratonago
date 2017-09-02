@@ -1,8 +1,11 @@
 ---
 layout: post
 title:  "TAP-2017/1 - Dicas e soluções dos problemas do BOCA"
-tags: [maratona de programação, tópicos avançados de programação, problemset, analise]
-categories: analise
+main-class: 'editorial'
+tags:
+- "maratona de programação"
+- TAP
+- UFG
 author: wellvolks
 ---
 

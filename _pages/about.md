@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: minimal
 title: Sobre
 permalink: /sobre/
-author: paulocezar
 ---
 
 {% include apresentacao.md %}

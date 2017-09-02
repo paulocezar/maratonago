@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Nacional da Maratona de Programação 2015"
-tags: [maratona de programação, nacional, 2015, problemset, analise]
-categories: analise
+main-class: 'editorial'
+tags:
+- "maratona de programação"
+- nacional
 author: viniciusmalloc
 ---
 

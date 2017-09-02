@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Regional da Maratona de Programação 2016"
-tags: [maratona de programação, regional, 2016, problemset, analise]
-categories: analise
+main-class: 'editorial'
+tags:
+- "maratona de programação"
+- "regional"
 author: paulocezar
 ---
 

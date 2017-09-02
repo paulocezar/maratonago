@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Aquecimento OBI - Primeira Fase 2016"
-tags: [olimpiada brasileira de informatica, 2016, problemset, analise, uri]
-categories: analise
+main-class: 'editorial'
+tags:
+- OBI
+- URI
 author: paulocezar
 ---
 

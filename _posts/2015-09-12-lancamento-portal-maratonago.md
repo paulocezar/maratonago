@@ -1,8 +1,11 @@
 ---
 layout: post
 title:  "Bem vindos ao portal Maratona GO"
-tags: [maratona de programação, competitive programming, acm, icpc, ufg, maratonago]
-categories: noticias
+main-class: 'news'
+tags:
+- "maratona de programação"
+- "competitive programming"
+introduction: "Bem vindos ao Maratona GO!"
 author: paulocezar
 ---
 

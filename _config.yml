@@ -1,67 +1,51 @@
 # Site settings
 title: Maratona GO
-email: paulocezar.ufg@gmail.com
 description: >
   Projeto para divulgação de informação sobre a Maratona de Programação
   e compartilhamento de conhecimento sobre Competitive Programming.
-footer_text: '&copy; 2015 Maratona GO. Made with Jekyll using <a href="https://github.com/OnlySomeDood/material-jekyll-ex">Material Jekyll Ex Theme</a>.'
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://maratonago.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site
+url: "https://maratonago.github.io" # the base hostname & protocol for your site
 
-# Social usernames
-facebook_username: maratonago
-github_username:  maratonago
-
-# Google Analytics tracking Code
-#google_analytics: ?-??????-??
-
-# Disqus comments shortname
-disqus:
-    shortname: "maratonago" #replace with your disqus comment short name
-
-# Site author attribution
-# Theoretically you can have an unlimited number defined.
-# In order to get the ID for your gravitar, login to the gravitar website, click My Gravitars
-# Click view rating then copy the email hash.
-# Be sure to include the appropriate frontmatter in your post to attribute the author
-author_ids: [paulocezar]
-authors:
-  paulocezar:
-    display_name: Paulo Cezar
-    #gravatar:
-    email: paulocezar.ufg@gmail.com
-    #web: http://paulocezar.github.io
-    github: http://github.com/paulocezar
-    #bio:
+# User settings
+#username:
+#user_description:
+#email:
+#twitter_username:
+#gplus_username:
+github_username: maratonago
+disqus_username: maratonago
 
 # Build settings
 markdown: kramdown
 kramdown:
   math_engine: mathjax
-include: ['_pages', '_assets']
-exculde: ['.sass_cache', 'README.md']
-sass:
-  sass_dir: '_assets/_sass'
+highlighter: rouge
 permalink: /:title
 
-gems:
-  - jekyll-coffeescript
+plugins:
   - jekyll-gist
-  - jekyll-mentions
-  - jekyll-paginate
-  - jekyll-redirect-from
 whitelist:
-  - jekyll-coffeescript
   - jekyll-gist
-  - jekyll-mentions
-  - jekyll-paginate
-  - jekyll-redirect-from
 
-# Defaults
-defaults:
-  -
-    scope:
-      path: "_pages"
-    values:
-      is_in_nav: true
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
 
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Inicio
+    url: /
+  - title: Tags
+    url: /tags
+  - title: Materiais
+    url: /materiais
+  - title: Sobre
+    url: /sobre
+
+include: ['_pages', '_assets']
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

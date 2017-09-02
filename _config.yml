@@ -4,7 +4,7 @@ description: >
   Projeto para divulgação de informação sobre a Maratona de Programação
   e compartilhamento de conhecimento sobre Competitive Programming.
 baseurl: "" # the subpath of your site
-url: "https://paulocezar.github.io/maratonago" # the base hostname & protocol for your site
+url: "https://maratonago-tests.paulocezar.net" # the base hostname & protocol for your site
 
 # User settings
 #username:
